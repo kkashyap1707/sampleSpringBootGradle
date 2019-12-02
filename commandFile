@@ -1,0 +1,5 @@
+ ./gradlew build && java -jar build/libs/gs-spring-boot-0.1.0.jar
+
+./gradlew sonarqube \
+  -Dsonar.host.url=http://18.210.209.193 \
+  -Dsonar.login=e9b10ffc3dbc831da881e6ee1783cd34ff07a1b5

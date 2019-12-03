@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 public class Application {
 
 	public static void main(String[] args) {
+		System.setProperty("server.port","8081");
 		SpringApplication.run(Application.class, args);
 	}
 

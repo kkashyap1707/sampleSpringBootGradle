@@ -1,17 +1,13 @@
-//package hello;
-//
-//import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
-//import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
-//import org.springframework.stereotype.Component;
-//
-//@Component
-//public class CustomContainer implements EmbeddedServletContainerCustomizer {
-//
-//	@Override
-//	public void customize(ConfigurableEmbeddedServletContainer container) {
-//
-//		container.setPort(8888);
-//
-//	}
-//
-//}
+/*
+package hello;
+
+import org.springframework.boot.web.server.WebServerFactoryCustomizer;
+import org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory;
+
+public class ServletConfig implements
+        WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> {
+
+    public void customize(ConfigurableServletWebServerFactory factory) {
+        factory.setPort(8081);
+    }
+}*/

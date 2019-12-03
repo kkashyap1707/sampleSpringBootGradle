@@ -1,0 +1,6 @@
+projectKey=complete
+serverUrl=http://18.210.209.193
+serverVersion=7.5.0.20543
+dashboardUrl=http://18.210.209.193/dashboard?id=complete
+ceTaskId=AW7H45SPh2ePbcb2gfBc
+ceTaskUrl=http://18.210.209.193/api/ce/task?id=AW7H45SPh2ePbcb2gfBc

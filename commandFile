@@ -3,3 +3,5 @@
 ./gradlew sonarqube \
   -Dsonar.host.url=http://18.210.209.193 \
   -Dsonar.login=e9b10ffc3dbc831da881e6ee1783cd34ff07a1b5
+
+  ./gradlew sonarqube -x test  -Dsonar.host.url=http://18.210.209.193   -Dsonar.login=e9b10ffc3dbc831da881e6ee1783cd34ff07a1b5
